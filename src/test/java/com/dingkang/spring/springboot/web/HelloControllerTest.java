@@ -1,6 +1,5 @@
-package com.dingkang.spring.web;
+package com.dingkang.spring.springboot.web;
 
-import com.dingkang.spring.springboot.web.HelloController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +25,7 @@ public class HelloControllerTest{
                 .andExpect(status().isOk())
                 .andExpect(content().string(hello));
     }
+
 }
 
 
